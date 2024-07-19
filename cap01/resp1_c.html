@@ -1,0 +1,8 @@
+<script>
+    const preco = Number(window.prompt("Preço: ")) // lê o preço recebido 
+    const  desconto = preco * 0.10 // calcula o desconto de 10% para pagamentos à vista
+    const valorAvista = preco - desconto // aplica o desconto de 10% no preço
+    const parcelado = preco / 3  // divide o valor do preço em 3 vezes
+    window.alert(`Preço: ${preco.toFixed(2)}\n Valor à vista: ${valorAvista.toFixed(2)}\n Valor parcelado em 3x: ${parcelado.toFixed(2)}`) // exibe o preço, o valor à vista e o valor parcelado em três vezes 
+    
+</script>
