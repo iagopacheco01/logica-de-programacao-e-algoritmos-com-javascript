@@ -1,1 +1,1 @@
-![https://novatec.com.br/](/capa-do-livro.jpg)
+![capa](/capa-do-livro.jpg)
